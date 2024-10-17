@@ -377,7 +377,13 @@ pre>code {
 }
 
 .post-subtitle {
-  font-size: 10px;
+  font-size: 21px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.post-subsubtitle {
+  font-size: 17px;
   letter-spacing: -1px;
   line-height: 1;
 }
