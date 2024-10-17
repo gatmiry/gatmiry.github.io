@@ -376,6 +376,12 @@ pre>code {
   line-height: 1;
 }
 
+.post-subtitle {
+  font-size: 10px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
 @media screen and (max-width: 900px) {
   .post-title {
     font-size: 36px;
