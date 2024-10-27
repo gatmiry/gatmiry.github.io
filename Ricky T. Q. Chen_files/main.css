@@ -371,21 +371,24 @@ pre>code {
 }
 
 .post-title {
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: -1px;
   line-height: 1;
+  font-family: palatino;
 }
 
 .post-subtitle {
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 .post-subsubtitle {
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
+  font-weight: bold;
+  font-family: palatino;
 }
 
 @media screen and (max-width: 900px) {
