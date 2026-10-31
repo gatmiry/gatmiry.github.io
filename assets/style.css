@@ -5,12 +5,12 @@
 .news-list{list-style:none;margin:0;padding:0}.news-list li{display:grid;grid-template-columns:125px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid var(--line)}.news-list time{font-size:14px;font-weight:600;color:var(--blue);padding-top:2px}.news-list p{font-size:16px;line-height:1.8;color:#414a55;margin:0}.recent-item{display:grid;grid-template-columns:38px minmax(0,1fr);gap:22px;padding:25px 0;border-top:1px solid var(--line)}.recent-number{font-size:12px;color:var(--blue);font-weight:600;padding-top:5px}.recent-item h3{font-size:18px;line-height:1.55;font-weight:650;letter-spacing:-.25px;margin:0 0 9px}.recent-item h3 a{color:var(--ink)}.recent-item h3 a:hover{color:var(--blue)}.recent-item .paper-meta{font-size:13px;line-height:1.6}.recent-work .section-heading,.news-section .section-heading{margin-bottom:22px}@media(max-width:570px){.news-list li{grid-template-columns:1fr;gap:6px;padding:18px 0}.news-list p{font-size:16px}.recent-item{grid-template-columns:25px minmax(0,1fr);gap:12px;padding:22px 0}.recent-item h3{font-size:17px}.recent-item .paper-meta{font-size:12px;flex-wrap:wrap}}
 
 /* Optional right-hand publication thumbnails. */
-.recent-item-with-figure{grid-template-columns:26px minmax(0,1fr) 180px;gap:20px;align-items:start}
+.recent-item-with-figure{grid-template-columns:26px minmax(0,1fr) 220px;gap:20px;align-items:start}
 .recent-item-with-figure>div{min-width:0}
-.recent-figure{width:180px;max-width:180px;margin:3px 0 0;border:1px solid #dce1e8;border-radius:7px;overflow:hidden;background:#fff}
-.recent-figure-link{display:flex;align-items:center;justify-content:center;height:100px;padding:8px;background:#fff}
+.recent-figure{width:220px;max-width:220px;margin:3px 0 0;border:1px solid #dce1e8;border-radius:7px;overflow:hidden;background:#fff}
+.recent-figure-link{display:flex;align-items:center;justify-content:center;height:120px;padding:8px;background:#fff}
 .recent-figure-link:hover{background:#f7f9fd}
-.recent-figure img{display:block;width:100%;max-width:162px;height:auto;max-height:84px;object-fit:contain}
+.recent-figure img{display:block;width:100%;max-width:202px;height:auto;max-height:104px;object-fit:contain}
 .recent-figure figcaption{padding:5px 8px;border-top:1px solid #e7eaf0;background:#f5f7fb;font-size:10px;line-height:1.5;text-align:right}
 .recent-figure figcaption>span{display:none}
 .recent-figure figcaption a{font-weight:500;white-space:nowrap}
