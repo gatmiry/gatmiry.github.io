@@ -28,3 +28,31 @@
   }
   update();
 })();
+
+// Enhance optional paper figures; image links still work without dialog support.
+(() => {
+  document.querySelectorAll('[data-paper-dialog]').forEach(trigger => {
+    const dialog = document.getElementById(trigger.dataset.paperDialog);
+    if (!dialog || typeof dialog.showModal !== 'function') return;
+    trigger.addEventListener('click', event => {
+      event.preventDefault();
+      if (dialog.open) return;
+      dialog.returnFocus = trigger;
+      dialog.previousOverflow = document.body.style.overflow;
+      dialog.showModal();
+      document.body.style.overflow = 'hidden';
+      dialog.scrollTop = 0;
+      dialog.querySelector('.paper-dialog-close').focus();
+    });
+  });
+  document.querySelectorAll('.paper-dialog').forEach(dialog => {
+    dialog.querySelector('.paper-dialog-close').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener('close', () => {
+      document.body.style.overflow = dialog.previousOverflow || '';
+      if (dialog.returnFocus && dialog.returnFocus.isConnected) dialog.returnFocus.focus();
+    });
+  });
+})();
