@@ -7,7 +7,7 @@
     const query = search.value.toLocaleLowerCase().trim();
     let count = 0;
     for (const paper of papers) {
-      const visible = (active === 'All' || paper.dataset.topic === active) && paper.textContent.toLocaleLowerCase().includes(query);
+      const visible = (active === 'All' ? paper.dataset.hideFromAll !== 'true' : paper.dataset.topic === active) && paper.textContent.toLocaleLowerCase().includes(query);
       paper.hidden = !visible;
       count += Number(visible);
     }
