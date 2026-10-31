@@ -1,0 +1,163 @@
+[
+  {
+    "title": "On the Role of Depth and Looping for In-Context Learning with Task Diversity",
+    "authors": "Khashayar Gatmiry , Zhiyuan Li, Sashank J. Reddi, Stefanie Jegelka",
+    "venue": "Preprint.",
+    "topic": "Transformers",
+    "url": ""
+  },
+  {
+    "title": "Can Looped Transformers Learn to Implement Multi-step Gradient Descent for In-context Learning?",
+    "authors": "Khashayar Gatmiry, Nikunj Saunshi, Sashank J Reddi, Stefanie Jegelka, Sanjiv Kumar",
+    "venue": "ICML 2024",
+    "topic": "Transformers",
+    "url": "https://arxiv.org/abs/2410.08292"
+  },
+  {
+    "title": "Rethinking Invariance in In-context Learning",
+    "authors": "Lizhe Fang, Yifei Wang, Khashayar Gatmiry, Lei Fang, Yisen Wang",
+    "venue": "ICML Workshop 2024",
+    "topic": "Transformers",
+    "url": "https://openreview.net/pdf?id=xSDqxxILWg"
+  },
+  {
+    "title": "Simplicity Bias via Global Convergence of Sharpness Minimization",
+    "authors": "Khashayar Gatmiry , Zhiyuan Li, Sashank J. Reddi, Stefanie Jegelka",
+    "venue": "ICML 2024",
+    "topic": "Implicit Bias",
+    "url": "https://proceedings.mlr.press/v235/gatmiry24a.html"
+  },
+  {
+    "title": "The Inductive Bias of Flatness Regularization for Deep Matrix Factorization",
+    "authors": "Khashayar Gatmiry, Zhiyuan Li, Ching-Yao Chuang, Sashank Reddi, Tengyu Ma, Stefanie Jegelka",
+    "venue": "NeuRIPS 2023",
+    "topic": "Implicit Bias",
+    "url": "https://arxiv.org/abs/2306.13239"
+  },
+  {
+    "title": "Adaptive Generalization and Optimization of Three-Layer Neural Networks",
+    "authors": "Khashayar Gatmiry, Stefanie Jegelka, Jonathan Kelner",
+    "venue": "ICLR 2022",
+    "topic": "Algorithmic Generalization and Stability",
+    "url": "https://par.nsf.gov/biblio/10406731-adaptive-generalization-optimization-three-layer-neural-networks"
+  },
+  {
+    "title": "On the generalization of learning algorithms that do not converge",
+    "authors": "Nisha Chandramoorthy, Andreas Loukas, Khashayar Gatmiry, Stefanie Jegelka",
+    "venue": "NeurIPS 2022.",
+    "topic": "Algorithmic Generalization and Stability",
+    "url": "https://openreview.net/forum?id=4tGggvizjd8"
+  },
+  {
+    "title": "Learning Mixture of Gaussians Using Diffusion Models",
+    "authors": "Khashayar Gatmiry, Jonathan Kelner, Holden Lee",
+    "venue": "Preprint",
+    "topic": "Diffusion Models",
+    "url": "https://arxiv.org/abs/2404.18869"
+  },
+  {
+    "title": "What does guidance do? A fine-grained analysis in a simple setting",
+    "authors": "Muthu Chidambaram, Khashayar Gatmiry, Sitan Chen, Holden Lee, Jianfeng Lu",
+    "venue": "NeuRIPS 2024",
+    "topic": "Diffusion Models",
+    "url": "https://www.arxiv.org/abs/2409.13074"
+  },
+  {
+    "title": "Sampling Polytopes with Riemannian HMC: Faster Mixing via the Lewis Weights Barrier",
+    "authors": "Khashayar Gatmiry, Jonathan Kelner, Santosh S. Vempala",
+    "venue": "COLT 2024.",
+    "topic": "MCMC Sampling",
+    "url": "https://proceedings.mlr.press/v247/gatmiry24a/gatmiry24a.pdf"
+  },
+  {
+    "title": "Convergence of the Riemannian Langevin Algorithm",
+    "authors": "Khashayar Gatmiry, Jonathan Kelner, Santosh S. Vempala",
+    "venue": "to appear in JMLR",
+    "topic": "MCMC Sampling",
+    "url": "https://arxiv.org/abs/2204.10818"
+  },
+  {
+    "title": "When does Metropolized Hamiltonian Monte Carlo provably outperform Metropolis-adjusted Langevin algorithm?",
+    "authors": "Yuansi Chen, Khashayar Gatmiry",
+    "venue": "",
+    "topic": "MCMC Sampling",
+    "url": "https://arxiv.org/abs/2304.04724"
+  },
+  {
+    "title": "Adversarial Online Learning with Temporal Feedback Graphs",
+    "authors": "Khashayar Gatmiry, Jon Schneider",
+    "venue": "COLT 2024",
+    "topic": "Online Learning/Optimization",
+    "url": "https://proceedings.mlr.press/v247/gatmiry24b.html"
+  },
+  {
+    "title": "Computing Optimal Regularizers for Online Linear Optimization",
+    "authors": "Khashayar Gatmiry, Jon SChneider, Stefanie Jegelka",
+    "venue": "Preprint",
+    "topic": "Online Learning/Optimization",
+    "url": "https://arxiv.org/abs/2410.17336"
+  },
+  {
+    "title": "Projection-Free Online Convex Optimization via Efficient Newton Iterations",
+    "authors": "Khashayar Gatmiry, Zakaria Mhammedi",
+    "venue": "NeuRIPS 2023",
+    "topic": "Online Learning/Optimization",
+    "url": "https://arxiv.org/abs/2306.11121"
+  },
+  {
+    "title": "Quasi-Newton Steps for Efficient Online Exp-Concave Optimization",
+    "authors": "Zakaria Mhammedi, Khashayar Gatmiry",
+    "venue": "COLT 2023",
+    "topic": "Online Learning/Optimization",
+    "url": "https://proceedings.mlr.press/v195/mhammedi23a.html"
+  },
+  {
+    "title": "Bandit Algorithms for Prophet Inequality and Pandora's Box",
+    "authors": "Khashayar Gatmiry, Thomas Kesselheim, Sahil Singla, Yifan Wang",
+    "venue": "SODA 2024",
+    "topic": "Online Learning/Optimization",
+    "url": "https://arxiv.org/abs/2211.08586"
+  },
+  {
+    "title": "EM for Mixture of Linear Regression with Clustered Data",
+    "authors": "Amirhossein Reisizadeh, Khashayar Gatmiry, Asuman Ozdaglar",
+    "venue": "AISTATS 2024",
+    "topic": "Other Testing/Learning",
+    "url": "https://proceedings.mlr.press/v238/reisizadeh24a.html"
+  },
+  {
+    "title": "Testing Determinantal Point Processes",
+    "authors": "Khashayar Gatmiry, Maryam Aliakbarpour, Stefanie Jegelka",
+    "venue": "NeuRIPS 2020",
+    "topic": "Other Testing/Learning",
+    "url": "https://arxiv.org/abs/2008.03650"
+  },
+  {
+    "title": "A Unified Approach to Controlling Implicit Regularization via Mirror Descent",
+    "authors": "Haoyuan Sun, Khashayar Gatmiry, Kwangjun Ahn, Navid Azizan",
+    "venue": "JMLR 2023",
+    "topic": "Other Testing/Learning",
+    "url": "https://arxiv.org/abs/2306.13853"
+  },
+  {
+    "title": "Optimal algorithms for group distributionally robust optimization and beyond",
+    "authors": "Tasuku Soma, Khashayar Gatmiry, Stefanie Jegelka",
+    "venue": "Preprint",
+    "topic": "Other Testing/Learning",
+    "url": "https://arxiv.org/abs/2212.13669"
+  },
+  {
+    "title": "Information Theoretic Bounds on Optimal Worst-case Error in Binary Mixture Identification",
+    "authors": "Khashayar Gatmiry, Seyed Abolfazl Motahari",
+    "venue": "Preprint",
+    "topic": "Other Testing/Learning",
+    "url": "https://arxiv.org/abs/1811.07307"
+  },
+  {
+    "title": "The Network Visibility Problem",
+    "authors": "Khashayar Gatmiry, Manuel Gomez-Rodriguez",
+    "venue": "TOIS 2021",
+    "topic": "Submodularity/Learning",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3460475"
+  }
+]
