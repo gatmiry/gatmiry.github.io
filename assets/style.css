@@ -39,3 +39,7 @@
 @keyframes paper-backdrop-in{from{background:rgba(19,27,43,0);backdrop-filter:blur(0)}to{background:rgba(19,27,43,.68);backdrop-filter:blur(7px)}}
 @media(max-width:600px){.paper-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 32px);border-radius:12px}.paper-dialog-header{padding:22px 20px 18px;gap:14px}.paper-dialog-header h2{font-size:21px}.paper-dialog-header .eyebrow{font-size:9px;letter-spacing:1.4px}.paper-dialog-close{width:32px;height:32px}.paper-dialog-image{padding:22px 10px}.paper-dialog-abstract{padding:22px 20px 26px}.paper-dialog-abstract p{font-size:16px;line-height:1.8}.paper-dialog-abstract-heading{margin-bottom:16px}}
 @media(prefers-reduced-motion:reduce){.paper-dialog[open],.paper-dialog[open]::backdrop{animation:none}}
+
+/* A sentence-length introduction needs quieter typography than section labels. */
+.intro-copy > .eyebrow{font-size:15px;line-height:1.55;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);max-width:38ch;text-wrap:balance;margin-bottom:24px}
+@media(max-width:570px){.intro-copy > .eyebrow{font-size:14px;max-width:35ch;margin-bottom:20px}}
