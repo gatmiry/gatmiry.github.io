@@ -43,3 +43,6 @@
 /* A sentence-length introduction needs quieter typography than section labels. */
 .intro-copy > .eyebrow{font-size:15px;line-height:1.55;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);max-width:38ch;text-wrap:balance;margin-bottom:24px}
 @media(max-width:570px){.intro-copy > .eyebrow{font-size:14px;max-width:35ch;margin-bottom:20px}}
+
+/* Compact topic labels for recent research. */
+.research-tags{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 12px;padding:0;list-style:none}.research-tag{display:inline-flex;align-items:center;padding:3px 9px;border:1px solid transparent;border-radius:6px;font-size:11px;line-height:1.6;font-weight:600;letter-spacing:.1px}.research-tag-latent{color:#17665d;background:#e8f5f1;border-color:#cee8df}.research-tag-interpretability{color:#65509a;background:#f0ecf9;border-color:#e0d7f1}
