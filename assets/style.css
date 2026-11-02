@@ -67,3 +67,6 @@
 
 /* Slightly larger affiliation marks. */
 .academic-logos{gap:24px}.affiliation-berkeley-seal{width:112px;height:112px}.affiliation-mit{width:120px}.affiliation-apple .apple-affiliation-image{display:block;width:52px;height:40px;object-fit:contain}.affiliation-apple span{font-size:14px}@media(max-width:570px){.academic-logos{gap:20px}.affiliation-berkeley-seal{width:100px;height:100px}.affiliation-mit{width:108px}.affiliation-apple .apple-affiliation-image{width:48px;height:38px}}
+
+/* Clean, background-free affiliation marks. */
+.affiliation-logos{gap:28px;margin-top:36px}.academic-logos{gap:26px;align-items:center}.affiliation-berkeley-seal{width:124px;height:124px}.affiliation-berkeley-seal img{width:100%;height:100%;object-fit:contain}.affiliation-mit{width:130px}.affiliation-mit img{width:100%;height:auto}.affiliation-apple .apple-affiliation-image{width:55px;height:66px;object-fit:contain}.affiliation-logos a{background:transparent;border:0;border-radius:0;box-shadow:none}@media(max-width:570px){.affiliation-logos{align-items:center;width:100%;gap:25px}.academic-logos{justify-content:center;gap:22px}.affiliation-berkeley-seal{width:112px;height:112px}.affiliation-mit{width:124px}.affiliation-apple{padding-left:0}.affiliation-apple .apple-affiliation-image{width:51px;height:61px}}
